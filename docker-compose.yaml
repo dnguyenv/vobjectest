@@ -1,0 +1,13 @@
+version: '2'
+services:
+  app:
+    image: objecttest:latest
+    environment:
+      - URL=https://icp.innovate.ibm.com:30006/image
+#version: '3'
+#services:
+#  worker:
+#    image: objecttest:latest
+#    deploy:
+#      mode: replicated
+#      replicas: 16
